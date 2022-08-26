@@ -31,11 +31,4 @@ func main() {
 		}
 		fmt.Println("----------------------")
 	}
-	/*
-		str := "banana apple lemon"
-		word := "apple"
-		index := strings.Index(str, word)
-		fmt.Println(index)
-		fmt.Println(string(str[index : index+len(word)]))
-	*/
 }
