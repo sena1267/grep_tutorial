@@ -6,8 +6,6 @@ import (
 	"path/filepath"
 )
 
-// comment
-
 func getFilePath(dirpath string) []string {
 	var paths []string
 
@@ -29,12 +27,3 @@ func getFilePath(dirpath string) []string {
 
 	return paths
 }
-
-/*
-func main() {
-	paths := dirwalk("./")
-	for _, path := range paths {
-		fmt.Println(path)
-	}
-}
-*/
