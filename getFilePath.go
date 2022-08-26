@@ -8,6 +8,8 @@ import (
 
 // comment
 
+// test hogehoge
+
 func getFilePath(dirpath string) []string {
 	var paths []string
 
