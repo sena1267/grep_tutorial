@@ -6,6 +6,8 @@ import (
 	"path/filepath"
 )
 
+// comment
+
 func getFilePath(dirpath string) []string {
 	var paths []string
 
