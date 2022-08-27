@@ -24,7 +24,9 @@ func main() {
 
 		line_num := 1
 		for scanner.Scan() {
-			if strings.Contains(scanner.Text(), os.Args[1]) {
+			lowerArgs := strings.ToLower(os.Args[1])
+			lowerScannerText := strings.ToLower(scanner.Text())
+			if strings.Contains(lowerScannerText, lowerArgs) {
 				fmt.Printf("%d行目: %s\n", line_num, scanner.Text())
 			}
 			line_num++
